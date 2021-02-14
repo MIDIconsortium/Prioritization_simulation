@@ -8,3 +8,6 @@ for this exam. The probability represents the likelihood that the head MRI conta
 
 A second dictionary {'Accession number':ground_truth_probability} is also needed which maps accession numbers to the true label for this exam (in this case derived from the radiology report
 using a text classification model). This is used to stratify the report delay by class (i.e., 'normal' and 'abnormal')
+
+
+![alt text](https://github.com/MIDIconsortium/Prioritization_simulation/blob/main/queue.png?raw=true)
