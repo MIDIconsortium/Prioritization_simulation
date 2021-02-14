@@ -6,5 +6,5 @@ and 'Date Last Ver' (the date that the radiology report for this examination was
 A dictionary {'Accession number':pobability} is needed, mapping accession numbers to the predictions of a computer vision model (e.g., convolutional neural network) 
 for this exam. The probability represents the likelihood that the head MRI contains an abnormality and is used to prioritize the reporting of this examination.
 
-A second dictionary {'Accession number':ground_truth_probability} is needed, which maps accession numbers to the true label for this exam (in this case derived from the radiology report
+A second dictionary {'Accession number':ground_truth_probability} is also needed which maps accession numbers to the true label for this exam (in this case derived from the radiology report
 using a text classification model). This is used to stratify the report delay by class (i.e., 'normal' and 'abnormal')
